@@ -214,6 +214,227 @@
 //20th Question
 // Transform Invoices to PDF links
 //  [301, 302] → ['/invoices/301.pdf', '/invoices/302.pdf']
-const arr = [301,302];
-let result = arr.map(x => "/invoices/"+x+".pdf");
-console.log(result);
+// const arr = [301,302];
+// let result = arr.map(x => "/invoices/"+x+".pdf");
+// console.log(result);
+
+
+//---------------------------------------------------------------------------------------------------
+
+// 21th Question
+// Add Department Info
+//  ['John', 'Mira'] → ['John - Sales', 'Mira - Sales']
+
+// const arr = ["John","Mira"];
+// const ans = arr.map(x => x+" - Sales");
+// console.log(ans);
+//---------------------------------------------------------------------------------------------------
+
+
+
+//22th Question
+// Employee IDs to Short Format
+//  ['EMP001', 'EMP002'] → ['001', '002']
+// const arr = ["EMP001","EMP002"];
+// let result = arr.map(x => x.slice(3));
+// console.log(result);
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//23th Question
+// Generate Work Email IDs
+//  ['Rita Kumar', 'Anil Roy'] → ['rita.kumar@company.com', 'anil.roy@company.com']
+// const arr = ["Rita Kumar","Anil Roy"];
+// const ans = arr.map(x => x.replace(" ",".").toLowerCase() + "@company.com");
+// console.log(ans);
+
+
+//---------------------------------------------------------------------------------------------------
+
+//24th Question
+// Salary Amount to Text
+//  [45000, 52000] → ['₹45000', '₹52000']
+// const arr = [45000, 52000];
+// const ans = arr.map(x => "₹"+x);
+// console.log(ans);
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//25th Question
+// All Employees to Active Status
+//  ['Ankita', 'Suraj'] → [{ name: 'Ankita', status: 'active' }, { name: 'Suraj', status: 'active' }]
+// const arr = ["Ankita","Suraj"];
+// const ans = arr.map(x => {
+//     return {name: x, status: "active"};
+// });
+// console.log(ans);
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//26th Question
+// Add Unit Type to Property
+//  ['Green Villa', 'Oak Tower'] → ['Green Villa - Apartment', 'Oak Tower - Apartment']
+// const arr = ["Green Villa","Oak Tower"];
+// const ans = arr.map(x => x+" - Apartment");
+// console.log(ans);
+
+//---------------------------------------------------------------------------------------------------
+
+
+//27th Question
+// Convert Rent Price to Monthly Format
+//  [15000, 20000] → ['₹15000/month', '₹20000/month']
+// const arr = [15000,20000];
+// const ans = arr.map(x => "₹"+x+"/month");
+// console.log(ans);
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//28th Question
+// Add Default Furnishing Status
+//  ['Flat 1', 'Flat 2'] → [{ name: 'Flat 1', furnished: false }, { name: 'Flat 2', furnished: false }]
+// const arr = ["Flat 1", "Flat 2"];
+// const ans = arr.map(x => {
+//     return {name: x, furnished: false};
+// });
+// console.log(ans);
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//29th Question
+// Property Listing Link Creation
+//  ['P001', 'P002'] → ['/properties/P001', '/properties/P002']
+// const arr =["P001","P002"];
+// const ans = arr.map(x => "/properties/"+x);
+// console.log(ans);
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//30th Question
+// Attach Available From Date
+//  ['Unit A', 'Unit B'] → ['Unit A - Available from 1st May', 'Unit B - Available from 1st May']
+// const arr = ["Unit A","Unit B"];
+// const ans = arr.map(x => x+ " - Available from 1st May");
+// console.log(ans);
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//31th Question
+// Tracking Code Formatting
+//  ['TR123', 'TR456'] → ['Tracking: TR123', 'Tracking: TR456']
+// const arr = ["TR123","TR456"];
+// const ans = arr.map(x => "Tracking: "+x);
+// console.log(ans);
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//32th Question
+// Mark Shipments as Pending
+//  [1001, 1002] → [{ id: 1001, status: 'Pending' }, { id: 1002, status: 'Pending' }]
+// const arr = [1001,1002];
+// const ans = arr.map(x => {
+//     return {id: x, status: "Pending"};
+// });
+// console.log(ans)
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//33th Question
+// Add Delivery Region Tag
+//  ['Order A', 'Order B'] → ['Order A - North Zone', 'Order B - North Zone']
+// const arr = ["Order A", "Order B"];
+// const ans = arr.map(x => x+ " - North Zone");
+// console.log(ans);
+
+//---------------------------------------------------------------------------------------------------
+
+
+//34th Question
+// Expected Delivery Time Format
+//  [2, 4] → ['2 days', '4 days']
+// const arr = [2, 4];
+// const ans = arr.map(x => x+ " days");
+// console.log(ans);
+
+//---------------------------------------------------------------------------------------------------
+
+
+//35th Question
+// Create Shipment URLs
+//  ['SHIP001', 'SHIP002'] → ['/track/SHIP001', '/track/SHIP002']
+// const arr = ["SHIP001", "SHIP002"];
+// const ans = arr.map(x => "/track/"+x);
+// console.log(ans);
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//36th Question
+// Convert Integer Array to Boolean Flags
+//  [0, 1, 0] → [false, true, false]
+// const arr = [0,1,0];
+// const ans = arr.map(x => x===0? false:true);
+// console.log(ans);
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//37th Question
+// Capitalize First Character in Each String
+//  ['alpha', 'beta'] → ['Alpha', 'Beta']
+// const arr = ["alpha","beta"];
+// const ans = arr.map(x => x[0].toUpperCase()+x.slice(1));
+// console.log(ans)
+
+
+//---------------------------------------------------------------------------------------------------
+
+//38th Question
+// Add Index to Array Values
+//  ['a', 'b'] → ['0: a', '1: b']
+// const arr = ['a', 'b'];
+// const ans = arr.map((x,i) => {
+//     return i+": "+x;
+// });
+// console.log(ans);
+
+//---------------------------------------------------------------------------------------------------
+
+
+//39th Question
+// Attach Country Code
+//  ['1234567890', '9876543210'] → ['+91-1234567890', '+91-9876543210']
+// const arr = ['1234567890', '9876543210'];
+// const ans = arr.map(x => "+91-"+x);
+// console.log(ans);
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+//40th Question
+// Convert Product Titles to Slugs
+//  ['Red Shirt', 'Blue Jeans'] → ['red-shirt', 'blue-jeans']
+// const arr = ['Red Shirt', 'Blue Jeans'];
+// const ans = arr.map(x => x.replace(" ","-").toLowerCase() );
+// console.log(ans);
